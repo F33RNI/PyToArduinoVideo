@@ -25,7 +25,7 @@ import numpy as np
 import serial
 
 MIN_TIME_BTW_FRAMES = 0.033
-MIN_TIME_BTW_LINES = 0.1
+MIN_TIME_BTW_LINES = 0.005
 
 # Capture form file
 cap = cv2.VideoCapture('Touhou - Bad Apple.mp4')
